@@ -9,9 +9,15 @@ const config: Config = {
   ],
   theme: {
   	extend: {
+		backgroundImage: {
+			"hero-bg": "url('/background-images/hero-bg.png')",
+		},
   		colors: {
   			background: 'var(--background)',
-  			foreground: 'var(--foreground)'
+  			foreground: 'var(--foreground)',
+			"primary-grey": "#4F4F4F",  
+			"primary-red": "#E15252",
+			"primary-yellow": "#F2C94C"
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
