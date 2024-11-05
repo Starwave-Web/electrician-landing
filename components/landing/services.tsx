@@ -28,15 +28,14 @@ const services = [
 const Services = () => {
   return (
     <section id={SECTIONS.SERVICES} className="w-full scroll-m-32">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className="w-full flex justify-center py-[28px] md:py-[71px]">
           <SectionHeader title="Szolgáltatásaink" />
         </div>
       </div>
-
       <div className="bg-secondary-grey after:content-[''] rounded-t-custom-curve w-full h-20" />
       <div className=" bg-secondary-grey w-full">
-        <div className="container mx-auto  flex gap-8 flex-wrap items-center justify-center">
+        <div className="container mx-auto flex gap-8 flex-wrap items-center justify-center">
           {services.map((service) => (
             <ServiceCard
               key={service.id}
