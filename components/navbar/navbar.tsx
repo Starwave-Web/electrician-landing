@@ -23,22 +23,18 @@ const Navbar = () => {
         <div className="lg:flex items-center gap-[29px] hidden">
           <ul className="flex items-center gap-16 text-primary-grey text-[1.25rem]/[1.375rem] font-bold">
             <li className="cursor-pointer">
-              <p onClick={() => scrollToSection(SECTIONS.ABOUT_US)}>
-                Bemutatkozás
-              </p>
-            </li>
-            <li className="cursor-pointer">
               <p onClick={() => scrollToSection(SECTIONS.SERVICES)}>
                 Szolgáltatások
               </p>
             </li>
             <li className="cursor-pointer">
+              <p onClick={() => scrollToSection(SECTIONS.ABOUT_US)}>Rólunk</p>
+            </li>
+            <li className="cursor-pointer">
               <p onClick={() => scrollToSection(SECTIONS.GALLERY)}>Galéria</p>
             </li>
           </ul>
-          <Button
-            onClick={() => scrollToSection(SECTIONS.CONTACT_US)}
-          >
+          <Button onClick={() => scrollToSection(SECTIONS.CONTACT_US)}>
             Ajánlatkérés
           </Button>
         </div>
@@ -62,13 +58,13 @@ const Navbar = () => {
                 </p>
               </li>
               <li className="cursor-pointer">
-                <p onClick={() => scrollToSectionMobile(SECTIONS.ABOUT_US)}>
-                  Bemutatkozás
+                <p onClick={() => scrollToSectionMobile(SECTIONS.SERVICES)}>
+                  Szolgáltatások
                 </p>
               </li>
               <li className="cursor-pointer">
-                <p onClick={() => scrollToSectionMobile(SECTIONS.SERVICES)}>
-                  Szolgáltatások
+                <p onClick={() => scrollToSectionMobile(SECTIONS.ABOUT_US)}>
+                  Rólunk
                 </p>
               </li>
               <li className="cursor-pointer">

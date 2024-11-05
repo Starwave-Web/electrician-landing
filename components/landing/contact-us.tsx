@@ -6,11 +6,11 @@ import { EnvelopeIcon, LocationIcon, PhoneIcon } from "../icons/landing/contact-
 const ContactUs = () => {
   return (
     <section id={SECTIONS.CONTACT_US} className="w-full scroll-m-32 px-4">
-      <div className="container mx-auto flex flex-col gap-9 md:gap-[70px] mt-0 md:mt-[50px] px-2 bg-primary-red">
+      <div className="container mx-auto flex flex-col gap-9 md:gap-[70px] mt-0 md:mt-[50px] px-2 bg-primary-red mb-12 md:mb-[81px] rounded-b-[20px]">
         <div className="w-full flex justify-center py-[28px] md:py-[71px]">
           <SectionHeader id="contactus" title="Kapcsolat" />
         </div>
-        <div className="flex flex-col-reverse md:flex-row px-4 gap-7 md:gap-[90px]">
+        <div className="flex flex-col-reverse md:flex-row px-4 md:px-20 gap-7 md:gap-[90px] mb-[40px] md:mb-[120px]">
           <div className="w-full md:w-1/2">
             <ContactUsForm />
           </div>
@@ -35,9 +35,6 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="mx-auto container -mt-px mb-12 md:mb-[81px]">
-      <div className="bg-primary-red after:content-[''] rounded-b-custom-curve w-full h-20" />
       </div>
     </section>
   );

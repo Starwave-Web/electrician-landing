@@ -26,7 +26,7 @@ const Footer = () => {
               </li>
               <li className="cursor-pointer">
                 <p onClick={() => scrollToSection("testimonials")}>
-                  Visszajelzések
+                  Galéria
                 </p>
               </li>
               <li className="cursor-pointer">

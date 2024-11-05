@@ -2,7 +2,7 @@ import React from "react";
 import { SECTIONS } from "@/constants";
 import SectionHeader from "../ui/section-header";
 import InfoCard from "../ui/info-card";
-import { Button } from "../ui/button";
+import CTAButtons from "../ui/cta-buttons";
 
 const informations = [
   {
@@ -39,7 +39,7 @@ const informations = [
 
 const AboutUs = () => {
   return (
-    <section id={SECTIONS.SERVICES} className="w-full scroll-m-32">
+    <section id={SECTIONS.ABOUT_US} className="w-full scroll-m-32">
       <div className="w-full bg-secondary-grey mx-auto px-4">
         <div className="container mx-auto">
           <div className="w-full flex justify-start py-[28px] md:py-[71px]">
@@ -57,12 +57,7 @@ const AboutUs = () => {
               description={information.description}
             />
           ))}
-          <div className="mt-10 ml-4">
-            <Button size="sm">Ajánlatkérés</Button>
-            <Button size="sm" variant="ghost">
-              Visszahivást kérek
-            </Button>
-          </div>
+          <CTAButtons/>
         </div>
       </div>
       <div className="bg-secondary-grey after:content-[''] rounded-b-custom-curve w-full h-20" />
