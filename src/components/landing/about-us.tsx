@@ -1,5 +1,5 @@
 import React from "react";
-import { SECTIONS } from "@/constants";
+import { SECTIONS } from "@/src/constants";
 import SectionHeader from "../ui/section-header";
 import InfoCard from "../ui/info-card";
 import CTAButtons from "../ui/cta-buttons";

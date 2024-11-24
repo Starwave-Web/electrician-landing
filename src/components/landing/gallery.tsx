@@ -1,14 +1,14 @@
-import { SECTIONS } from "@/constants";
+import { SECTIONS } from "@/src/constants";
 import SectionHeader from "../ui/section-header";
 
-import Gallery1 from "@/assets/gallery/Gallery1.jpg";
-import Gallery2 from "@/assets/gallery/Gallery2.png";
-import Gallery3 from "@/assets/gallery/Gallery3.png";
-import Gallery4 from "@/assets/gallery/Gallery4.jpg";
-import Gallery5 from "@/assets/gallery/Gallery5.png";
-import Gallery6 from "@/assets/gallery/Gallery6.jpg";
-import Gallery7 from "@/assets/gallery/Gallery7.png";
-import Gallery8 from "@/assets/gallery/Gallery8.jpg";
+import Gallery1 from "@/src/assets/gallery/Gallery1.jpg";
+import Gallery2 from "@/src/assets/gallery/Gallery2.png";
+import Gallery3 from "@/src/assets/gallery/Gallery3.png";
+import Gallery4 from "@/src/assets/gallery/Gallery4.jpg";
+import Gallery5 from "@/src/assets/gallery/Gallery5.png";
+import Gallery6 from "@/src/assets/gallery/Gallery6.jpg";
+import Gallery7 from "@/src/assets/gallery/Gallery7.png";
+import Gallery8 from "@/src/assets/gallery/Gallery8.jpg";
 
 import ImageCard from "../ui/image-card";
 

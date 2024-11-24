@@ -1,13 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { scrollToSection } from "@/lib/utils";
+import { scrollToSection } from "@/src/lib/utils";
 import {
   FacebookLogo,
   FooterLogo,
   LinkedInLogo,
   TwitterLogo,
-} from "@/components/icons/footer";
+} from "@/src/components/icons/footer";
 const Footer = () => {
   return (
     <section className="w-full min-h-[120px]  md:min-h-[320px] bg-primary-grey">

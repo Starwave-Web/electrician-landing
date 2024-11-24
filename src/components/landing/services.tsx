@@ -1,11 +1,11 @@
-import { SECTIONS } from "@/constants";
+import { SECTIONS } from "@/src/constants";
 import SectionHeader from "../ui/section-header";
-import Service1 from "@/assets/services/Service1.png";
-import Service2 from "@/assets/services/Service2.png";
-import Service3 from "@/assets/services/Service3.png";
-import Service4 from "@/assets/services/Service4.png";
-import Service5 from "@/assets/services/Service5.png";
-import Service6 from "@/assets/services/Service6.png";
+import Service1 from "@/src/assets/services/Service1.png";
+import Service2 from "@/src/assets/services/Service2.png";
+import Service3 from "@/src/assets/services/Service3.png";
+import Service4 from "@/src/assets/services/Service4.png";
+import Service5 from "@/src/assets/services/Service5.png";
+import Service6 from "@/src/assets/services/Service6.png";
 import ServiceCard from "../ui/service-card";
 
 const services = [

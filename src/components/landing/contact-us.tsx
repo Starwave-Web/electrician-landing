@@ -1,4 +1,4 @@
-import { SECTIONS } from "@/constants";
+import { SECTIONS } from "@/src/constants";
 import SectionHeader from "../ui/section-header";
 import ContactUsForm from "../ui/contact-us-form";
 import { EnvelopeIcon, LocationIcon, PhoneIcon } from "../icons/landing/contact-us";

@@ -1,7 +1,7 @@
 "use client";
 
-import { SECTIONS } from "@/constants";
-import { scrollToSection } from "@/lib/utils";
+import { SECTIONS } from "@/src/constants";
+import { scrollToSection } from "@/src/lib/utils";
 import React from "react";
 import { Button } from "./button";
 

@@ -1,14 +1,16 @@
 "use client";
 
-import { scrollToSection } from "@/lib/utils";
+import { scrollToSection } from "@/src/lib/utils";
 import { Button } from "../ui/button";
 
 import { useState } from "react";
-import { SECTIONS } from "@/constants";
+import { SECTIONS } from "@/src/constants";
 import { CloseIcon, HamburgerMenu, Logo } from "../icons/navbar";
+import { useTranslations } from "next-intl";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const t = useTranslations("navBar")
 
   const scrollToSectionMobile = (section: string) => {
     setOpen(!open);
@@ -24,18 +26,18 @@ const Navbar = () => {
           <ul className="flex items-center gap-16 text-primary-grey text-[1.25rem]/[1.375rem] font-bold">
             <li className="cursor-pointer">
               <p onClick={() => scrollToSection(SECTIONS.SERVICES)}>
-                Szolgáltatások
+                {t('services')}
               </p>
             </li>
             <li className="cursor-pointer">
-              <p onClick={() => scrollToSection(SECTIONS.ABOUT_US)}>Rólunk</p>
+              <p onClick={() => scrollToSection(SECTIONS.ABOUT_US)}>{t('aboutUs')}</p>
             </li>
             <li className="cursor-pointer">
-              <p onClick={() => scrollToSection(SECTIONS.GALLERY)}>Galéria</p>
+              <p onClick={() => scrollToSection(SECTIONS.GALLERY)}>{t('gallery')}</p>
             </li>
           </ul>
           <Button onClick={() => scrollToSection(SECTIONS.CONTACT_US)}>
-            Ajánlatkérés
+            {t('getQuoteBtn')}
           </Button>
         </div>
         <div onClick={() => setOpen(!open)} className="lg:hidden">
@@ -54,27 +56,27 @@ const Navbar = () => {
             <ul className="flex flex-col gap-8 text-p text-white">
               <li className="cursor-pointer">
                 <p onClick={() => scrollToSectionMobile(SECTIONS.HERO)}>
-                  Kezdőlap
+                  {t('home')}
                 </p>
               </li>
               <li className="cursor-pointer">
                 <p onClick={() => scrollToSectionMobile(SECTIONS.SERVICES)}>
-                  Szolgáltatások
+                  {t('services')}
                 </p>
               </li>
               <li className="cursor-pointer">
                 <p onClick={() => scrollToSectionMobile(SECTIONS.ABOUT_US)}>
-                  Rólunk
+                  {t('aboutUs')}
                 </p>
               </li>
               <li className="cursor-pointer">
                 <p onClick={() => scrollToSectionMobile(SECTIONS.GALLERY)}>
-                  Galéria
+                  {t('gallery')}
                 </p>
               </li>
               <li className="cursor-pointer">
                 <p onClick={() => scrollToSectionMobile(SECTIONS.CONTACT_US)}>
-                  Ajánlatkérés
+                  {t('getQuoteBtn')}
                 </p>
               </li>
             </ul>

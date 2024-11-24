@@ -1,4 +1,4 @@
-import { SECTIONS } from "@/constants";
+import { SECTIONS } from "@/src/constants";
 import { LogoHuge } from "../icons/landing/hero";
 import CTAButtons from "../ui/cta-buttons";
 
