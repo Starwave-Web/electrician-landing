@@ -15,6 +15,7 @@ import { Input } from "./input";
 import { Button } from "./button";
 import { Textarea } from "./textarea";
 import { useToast } from "@/src/hooks/use-toast";
+import { useTranslations } from "next-intl";
 
 export enum SUBJECT {
   QUESTION = "question",
@@ -42,6 +43,7 @@ const formSchema = z.object({
 
 const ContactUsForm = () => {
   const { toast } = useToast();
+  const t = useTranslations('contactUsSection.contactForm')
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -126,7 +128,7 @@ const ContactUsForm = () => {
           render={({ field }) => (
             <FormItem >
               <FormLabel className="text-contact-us text-white">
-                Név
+                {t('name')}
               </FormLabel>
               <FormControl>
                 <Input
@@ -145,7 +147,7 @@ const ContactUsForm = () => {
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-contact-us text-white">
-                Email
+              {t('email')}
               </FormLabel>
               <FormControl>
                 <Input
@@ -164,7 +166,7 @@ const ContactUsForm = () => {
           render={({ field }) => (
             <FormItem>
               <FormLabel className="text-contact-us text-white">
-                Üzenet
+              {t('message')}
               </FormLabel>
               <FormControl>
                 <Textarea
@@ -178,7 +180,7 @@ const ContactUsForm = () => {
           )}
         />
         <Button className="w-fit self-center" variant="outline" type="submit">
-          Küldés
+        {t('sendBtn')}
         </Button>
       </form>
     </Form>
