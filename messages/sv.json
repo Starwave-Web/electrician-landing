@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "title": "VillTech Solutions",
+    "description": "Electrician"
+  },
   "navBar": {
     "home": "Home",
     "services": "Services",
