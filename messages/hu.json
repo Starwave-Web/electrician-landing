@@ -1,0 +1,84 @@
+{
+  "navBar": {
+    "home": "Kezdőlap",
+    "services": "Szolgáltatások",
+    "aboutUs": "Rólunk",
+    "gallery": "Galéria",
+    "getQuoteBtn": "Ajánlatkérés"
+  },
+  "heroSection": {
+    "title1": "Azonnali",
+    "title2": "Villanyszerelés",
+    "description1": "Sürgősségi hibaelhárítás non-stop, a nap 24 órájában! Kiszállás, akár 1-2 órán belül!",
+    "description2": "Budapest és vonzáskörzete, akár hétvégén is.",
+    "getQuoteBtn": "Ajánlatkérés",
+    "getCallback": "Visszahívást kérek"
+  },
+  "servicesSection": {
+    "title": "Szolgáltatásaink",
+    "serviceTitle1": "Elektromos hálózat kialakítása",
+    "serviceTitle2": "Villanykapcsolók beszerelése, cseréje",
+    "serviceTitle3": "Lámpák felszerelése",
+    "serviceTitle4": "Konnektorok beszerelése, cseréje",
+    "serviceTitle5": "Kamerarendszer telepítés",
+    "serviceTitle6": "Riasztórendszer telepítés"
+  },
+  "aboutUsSection": {
+    "title": "Rólunk",
+    "informations": [
+      {
+        "id": "1",
+        "description": "Cégünk már 12 éve megbízható villanyszerelő szolgáltatásokat nyújt lakossági és üzleti ügyfeleinknek. Büszkék vagyunk arra, hogy számos elégedett ügyféllel dolgoztunk együtt ez idő alatt."
+      },
+      {
+        "id": "2",
+        "description": "Tapasztalt szakembereink a legkorszerűbb technológiákat és eszközöket használják. Folyamatosan továbbképzéseken veszünk részt, hogy lépést tartsunk a legújabb iparági trendekkel és előírásokkal."
+      },
+      {
+        "id": "3",
+        "description": "Szolgáltatásaink közé tartozik az elektromos hálózatok tervezése, kiépítése és karbantartása. Gyors és hatékony megoldásokat kínálunk minden elektromos problémára, legyen az nagy vagy kicsi."
+      },
+      {
+        "id": "4",
+        "description": "Kiemelt figyelmet fordítunk a biztonságra és a megbízhatóságra. Minden munkánkat a legmagasabb színvonalon végezzük, ügyfeleink elégedettsége a legfontosabb számunkra."
+      },
+      {
+        "id": "5",
+        "description": "Rugalmas és ügyfélközpontú megközelítésünknek köszönhetően egyedi igényekre szabott szolgáltatásokat kínálunk. Minden projektünket az ügyfeleink igényeihez igazítjuk."
+      },
+      {
+        "id": "6",
+        "description": "Célunk, hogy hosszú távú kapcsolatokat építsünk ki ügyfeleinkkel. Bízunk benne, hogy Ön is elégedett lesz szolgáltatásainkkal, és mi lehetünk az Ön megbízható villanyszerelő partnere."
+      }
+    ],
+    "getQuoteBtn": "Ajánlatkérés",
+    "getCallback": "Visszahívást kérek"
+  },
+  "gallerySection": {
+    "title": "Galéria"
+  },
+  "contactUsSection": {
+    "title": "Kapcsolat",
+    "contactForm": {
+      "name": "Név",
+      "email": "Email",
+      "message": "Üzenet",
+      "sendBtn": "Küldés"
+    },
+    "contactInfo": {
+      "email": "info@villtech.hu",
+      "phoneNumber": "+36 30 609 0155",
+      "address": "2440, Százhalombatta Tél utca 41."
+    }
+  },
+  "footer": {
+    "navigation": {
+      "services": "Szolgáltatások",
+      "aboutUs": "Rólunk",
+      "gallery": "Galéria",
+      "getQuote": "Ajánlatkérés"
+    },
+    "allRightsReserved": "© 2024 Villtech Solutions. Minden jog fentartva.",
+    "termsAndConditions": "Adatkezelési szabályzat"
+  }
+}

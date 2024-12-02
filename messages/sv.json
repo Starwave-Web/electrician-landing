@@ -1,0 +1,84 @@
+{
+  "navBar": {
+    "home": "Home",
+    "services": "Services",
+    "aboutUs": "About Us",
+    "gallery": "Gallery",
+    "getQuoteBtn": "Request a Quote"
+  },
+  "heroSection": {
+    "title1": "Instant",
+    "title2": "Electrical Services",
+    "description1": "Emergency troubleshooting 24/7! On-site assistance within 1-2 hours!",
+    "description2": "Budapest and surrounding areas, even on weekends.",
+    "getQuoteBtn": "Request a Quote",
+    "getCallback": "Request a Callback"
+  },
+  "servicesSection": {
+    "title": "Our Services",
+    "serviceTitle1": "Electrical Network Installation",
+    "serviceTitle2": "Switch Installation and Replacement",
+    "serviceTitle3": "Lamp Installation",
+    "serviceTitle4": "Socket Installation and Replacement",
+    "serviceTitle5": "Camera System Installation",
+    "serviceTitle6": "Alarm System Installation"
+  },
+  "aboutUsSection": {
+    "title": "About Us",
+    "informations": [
+      {
+        "id": "1",
+        "description": "Our company has been providing reliable electrical services for residential and business clients for 12 years. We are proud to have worked with numerous satisfied customers over this time."
+      },
+      {
+        "id": "2",
+        "description": "Our experienced professionals use the most advanced technologies and tools. We continuously participate in training to stay updated with the latest industry trends and regulations."
+      },
+      {
+        "id": "3",
+        "description": "Our services include designing, building, and maintaining electrical networks. We offer fast and effective solutions for any electrical problem, big or small."
+      },
+      {
+        "id": "4",
+        "description": "We place great emphasis on safety and reliability. All our work is performed to the highest standards, with customer satisfaction as our top priority."
+      },
+      {
+        "id": "5",
+        "description": "Thanks to our flexible and customer-focused approach, we provide tailor-made services to meet unique needs. We customize each project to align with our clients' requirements."
+      },
+      {
+        "id": "6",
+        "description": "Our goal is to build long-term relationships with our clients. We hope you will be satisfied with our services and that we can become your trusted electrical partner."
+      }
+    ],
+    "getQuoteBtn": "Request a Quote",
+    "getCallback": "Request a Callback"
+  },
+  "gallerySection": {
+    "title": "Gallery"
+  },
+  "contactUsSection": {
+    "title": "Contact Us",
+    "contactForm": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "sendBtn": "Send"
+    },
+    "contactInfo": {
+      "email": "info@villtech.com",
+      "phoneNumber": "+36 30 609 0155",
+      "address": "2440, Százhalombatta, Tél Street 41."
+    }
+  },
+  "footer": {
+    "navigation": {
+      "services": "Services",
+      "aboutUs": "About Us",
+      "gallery": "Gallery",
+      "getQuote": "Request a Quote"
+    },
+    "allRightsReserved": "© 2024 VillTech Electrician Services. All rights reserved.",
+    "termsAndConditions": "Privacy Policy"
+  }
+}
