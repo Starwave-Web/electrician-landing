@@ -5,8 +5,8 @@ export default getRequestConfig(async ({requestLocale}) => {
   // This typically corresponds to the `[locale]` segment
   let locale = await requestLocale;
  
-  // @ts-ignore
-  if (!locale || !routing.locales.includes(locale as any)) {
+  // @ts-expect-error anytypeerror
+  if (!locale || !routing.locales.includes(locale)) {
     locale = routing.defaultLocale;
   }
  

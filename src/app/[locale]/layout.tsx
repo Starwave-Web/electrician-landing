@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+
 import "../globals.css";
 import { Poppins } from "next/font/google";
 import Navbar from "@/src/components/navbar/navbar";
 import { Toaster } from "@/src/components/ui/toaster";
 import Footer from "@/src/components/footer/footer";
 import { routing } from "@/src/i18n/routing";
-import { getMessages } from "next-intl/server";
+import { getMessages, getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
 import {NextIntlClientProvider} from 'next-intl';
 
@@ -14,10 +14,15 @@ const poppins = Poppins({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "VillTech Solutions",
-  description: "Villanyszerelés",
-};
+//@ts-expect-error anytypeerror
+export async function generateMetadata({params: {locale}}) {
+  const t = await getTranslations({locale, namespace: 'metadata'});
+ 
+  return {
+    title: t('title'),
+    description: t('description')
+  };
+}
 
 export default async function RootLayout({
   children,
@@ -26,8 +31,8 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: {locale: string};
 }>) {
-  // @ts-ignore
-  if (!routing.locales.includes(locale as any)) {
+  //@ts-expect-error anytypeerror
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
  
